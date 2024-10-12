@@ -5,15 +5,17 @@ local teleportFunc = queueonteleport or queue_on_teleport
                 game.Loaded:Wait()
             end
             repeat wait() until game.Players.LocalPlayer
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(147, 5, 153)
-wait(0.5)
-game.Workspace.Orb[Old]:Destroy()
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credit",Text = "By Nexer1234" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
 wait(1)
 fireclickdetector(workspace.Orb.ClickDetector)
-wait(0.5)
+wait(1)
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credit",Text = "Bind Glove Acquired" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
+wait(1)
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credit",Text = "Teleporting Back To Slap Battles" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
+wait(1)
 game:GetService("TeleportService"):Teleport(6403373529)
 ]])
 end
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "be patient",Text = "skibidi" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credit",Text = "By Nexer1234" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
 wait(2)
 game:GetService("TeleportService"):Teleport(74169485398268)
