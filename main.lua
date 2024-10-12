@@ -10,6 +10,8 @@ wait(0.5)
 game.Workspace.Orb[Old]:Destroy()
 wait(1)
 fireclickdetector(workspace.Orb.ClickDetector)
+wait(0.5)
+game:GetService("TeleportService"):Teleport(6403373529)
 ]])
 end
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "be patient",Text = "skibidi" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
